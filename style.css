@@ -20,7 +20,7 @@ div{
     font-size: 70px;
 }
 
-.button{
+#button{
     background-color: white;
     color: black;
     position:absolute;
@@ -33,12 +33,12 @@ div{
     min-width: 90px;
 }
 
-.button:hover {
+#button:hover {
     background-color:gray;
     transition: 0.1s;
 }
 
-.button2{
+#button2{
     background-color: white;
     color: black;
     position:absolute;
@@ -51,7 +51,7 @@ div{
     min-width: 90px;
 }
 
-.button2:hover {
+#button2:hover {
     background-color:gray;
     transition: 0.1s;
 }

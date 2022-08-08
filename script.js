@@ -25,6 +25,14 @@ function displayTime(){
         session.innerHTML = '';
     }
 
+    // Conventional time formatting
+    if(mins < 10){
+        mins = '0' + mins.toString();
+    }
+    if(secs < 10){
+        secs = '0' + secs.toString();
+    }
+
     document.getElementById('hours').innerHTML = hrs;
     document.getElementById('minutes').innerHTML = mins;
     document.getElementById('seconds').innerHTML = secs;
