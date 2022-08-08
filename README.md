@@ -1,0 +1,2 @@
+# Digital Clock
+A simple app that displays the current time. There are two buttons that you can use to switch between standard time and military time. The goal of this project was to get started with frontend development (html, css, js).
