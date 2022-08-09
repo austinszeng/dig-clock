@@ -20,38 +20,25 @@ div{
     font-size: 70px;
 }
 
-#button{
+.button_box{
+    margin-top: 420px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.button{
     background-color: white;
     color: black;
-    position:absolute;
-    top:60%;
-    left:55%;
-    transform: translate(-60%, -55%);
-    border:none;
-    border-radius:10px;
-    min-height:25px; 
+    border: none;
+    border-radius: 10px;
+    min-height: 25px; 
     min-width: 90px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
-#button:hover {
-    background-color:gray;
-    transition: 0.1s;
-}
-
-#button2{
-    background-color: white;
-    color: black;
-    position:absolute;
-    top:60%;
-    left:45%;
-    transform: translate(-60%, -45%);
-    border:none;
-    border-radius:10px;
-    min-height:25px; 
-    min-width: 90px;
-}
-
-#button2:hover {
+.button:hover {
     background-color:gray;
     transition: 0.1s;
 }
